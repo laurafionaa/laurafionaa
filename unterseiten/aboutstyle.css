@@ -1,0 +1,490 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: assets;
+  font-family: 'Syne', sans-serif; 
+}
+/*Logo*/
+.logo {
+  align-items: center;
+  text-align: center;
+  left: 45%;
+  right: auto;
+  top: 15px;
+  bottom: auto;
+  background: #cc9af4;
+  animation: animateColor 20s linear infinite;
+}
+@keyframes animateColor
+{
+  0%
+  {
+    filter: hue-rotate(0deg);
+  }
+  100%
+  {
+    filter: hue-rotate(360deg);
+  }
+}
+/*Navigation*/
+.menuline{
+  position: relative;
+  right: 49px;
+  size: 20%;  
+  top: -70px;
+  float: right;
+  font-size: 50px;
+  cursor: pointer;
+  color:#ffffff;
+  margin-bottom: -80px;
+}
+.nav {
+  align-items: center;
+  text-align: center;
+  left: 45%;
+  right: auto;
+  top: 15px;
+  bottom: auto;
+  background: #cc9af4;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #cc9af4;
+  background-color: #cc9af4b2;
+  overflow-x: hidden;
+  transition: 0.5s;
+  animation: animateColor 20s linear infinite;
+}
+@keyframes animateColor
+{
+  0%
+  {
+    filter: hue-rotate(0deg);
+  }
+  100%
+  {
+    filter: hue-rotate(360deg);
+  }
+}
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+  color: #a366d5;
+}
+.overlay .closebtn {
+  position: absolute;
+  top: 50px;
+  right: 45px;
+  font-size: 60px;
+}
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+/*Hover Menu*/
+.hover-title {
+  font-weight: 600;
+  display: inline;
+  pointer-events: auto;
+  cursor: pointer;
+}
+.hover-image {
+  visibility: hidden;
+}
+body:not(.mobile) .hover-title:hover + .hover-image {
+  visibility: visible;
+  pointer-events: none;
+}
+.hover-image {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  pointer-events: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+/* Change width and height to scale images */
+  width: 20%;
+  height: 20%;
+}
+.hover-image img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  margin-bottom: 0;
+}
+/*Important Background*/
+.container
+{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  background-image: linear-gradient(180deg, #ffffff 0%, #e8dcf1 19%, #dcc5ef 39%, #d8b4f5 60%, #d4a8f7 80%, #cc9af4 100%);
+  overflow: hidden;
+  animation: animateColor 20s linear infinite;
+}
+@keyframes animateColor
+{
+  0%
+  {
+    filter: hue-rotate(0deg);
+  }
+  100%
+  {
+    filter: hue-rotate(360deg);
+  }
+}
+.container span
+{
+  position: relative;
+  display: block;
+  width: 10px;
+  height: 10px;
+}
+.container span:hover::before
+{
+  transition: 0s;
+  transform: scale(3);
+}
+/*Button Download CV*/
+/* From uiverse.io by @kirzin */
+button {
+  text-decoration: none;
+  position: absolute;
+  bottom: 15%;
+  right: 15%;
+  border: none;
+  font-size: 14px;
+  font-family: inherit;
+  color: #fff;
+  width: 9em;
+  height: 3em;
+  line-height: 2em;
+  text-align: center;
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+  background-size: 300%;
+  border-radius: 30px;
+  z-index: 1;
+ }
+ button:hover {
+  animation: ani 8s linear infinite;
+  border: none;
+ }
+ @keyframes ani {
+  0% {
+   background-position: 0%;
+  }
+  100% {
+   background-position: 400%;
+  }
+ } 
+button:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+  background-size: 400%;
+  border-radius: 35px;
+  transition: 1s;
+ }
+ button:hover::before {
+  filter: blur(20px);
+ }
+ button:active {
+  background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+ }
+   /* unvisited link */
+   a.links:link {
+    color: #ffffff;
+    text-decoration: none;
+
+  }
+    /* visited link */
+  a.links:visited {
+    color: #ffffff;
+    text-decoration: none;
+
+  }
+    /* mouse over link */
+  a.links:hover {
+    color: #ffffff;
+    text-decoration: none;
+
+  }
+    /* selected link */
+  a.links:active {
+    color: rgb(177, 103, 233);
+    text-decoration: none;
+
+  }
+
+
+
+
+/*Moving Image*//* IMPORTANT FIX TYPO & RESPONSIVE*/
+.movingimage{
+  margin-top: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+img-moving{
+  border-radius: 50%;
+}
+/*About Moving Bandarole*/
+.scrolling {
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	overflow: hidden;
+	top: 30%;
+  background: none;
+}
+.scrolling h2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 4em;
+	text-align: center;
+	line-height: 50px;
+	color: rgb(255, 255, 255);
+  background: none;
+	transform: translateX(100%);
+	animation: scrolling 10s linear infinite;
+}
+@keyframes scrolling {
+	0% {
+		transform: translateX(150%);
+	}
+	100% {
+		transform: translateX(-150%);
+	}
+}
+/* Text */ 
+.intro {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+  position:absolute;
+  top: 35%;
+  left: 15%;
+  text-align: left;
+  /*text-shadow: 2px 2px 5px rgb(72, 65, 65);*/
+}
+.heading-text {
+  color: white;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+}
+.heading-text span {
+  font-weight: 100;
+  color: white;
+}
+/* Skills */
+.cont {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  background-image: linear-gradient(360deg, #ffffff 0%, #e8dcf1 19%, #dcc5ef 39%, #d8b4f5 60%, #d4a8f7 80%, #cc9af4 100%);
+  overflow: hidden;
+  font-size: 1.2rem;
+  color: white;
+  animation: animateColor 20s linear infinite;
+}
+.skills {
+  text-align: left;
+  padding-left: 3%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  margin-left: 15%;
+  margin-top: 2rem;
+  margin-bottom: 2%;
+}
+.heading-text2{
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  margin-left: 15%;
+}
+.all {width: 70%; background-color: #ffffff96;}
+.adobe {width: 55%; background-color: #9058f9;}
+.html {width: 40%; background-color: #9058f9;}
+.td {width: 45%; background-color: #9058f9;}
+.cinema {width: 30%; background-color: #9058f9;}
+.davinci {width: 25%; background-color: #9058f9;}
+.adobephoto {width: 25%; background-color: #9058f9;}
+.resolume {width: 20%; background-color: #9058f9;}
+.unreal {width: 20%; background-color: #9058f9;}
+
+
+/*Down*/
+.iconDown{
+  position: absolute;
+  bottom: 5%;
+  left: 15%;
+  width: 9em;
+  height: 3em;
+  line-height: 2em;
+}
+
+
+
+/*DOTS*/
+.flex-dots{
+  position: absolute;
+  justify-content: center;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+/*Hover Dots*/
+.hover-title {
+  font-weight: 600;
+  display: inline;
+  pointer-events: auto;
+  cursor: pointer;
+}
+.hover-imagee {
+  visibility: hidden;
+}
+body:not(.mobile) .hover-title:hover + .hover-image {
+  visibility: visible;
+  pointer-events: none;
+}
+.hover-imagee {
+  display: flex;
+  position: fixed;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  pointer-events: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+/* Change width and height to scale images */
+  width: 20%;
+  height: 20%;
+
+}
+.hover-imagee img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  margin-bottom: 0;
+}
+
+
+
+.hiddenimg {
+  display: none;
+  position: relative;
+  bottom: 20%;
+  left: 90%;
+}
+.hiddentxt {
+  font-weight: bold;
+  color: white;
+  z-index: 99;
+}
+.hiddentxt a {
+  color: white;
+  text-decoration: none;
+  z-index: 99;
+}
+.hiddenclick {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.hiddenclick a {
+  color: white;
+  text-decoration: none;
+}
+.hiddenclick a:visited {
+  color: white;
+  text-decoration: none;
+}
+.hiddentxt:hover ~ .hiddenimg {
+  display: block;
+  position: absolute;
+  z-index: 2
+}
+
+/*Skills New New*/
+.introo {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+  position:absolute;
+  top: 5%;
+  left: 15%;
+  text-align: left;
+  /*text-shadow: 2px 2px 5px rgb(72, 65, 65);*/
+}
+.heading-text {
+  color: white;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+}
+.heading-text span {
+  font-weight: 100;
+  color: white;
+} 
+.conte {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  background-image: linear-gradient(360deg, #ffffff 0%, #e8dcf1 19%, #dcc5ef 39%, #d8b4f5 60%, #d4a8f7 80%, #cc9af4 100%);
+  overflow: hidden;
+  font-size: 1.8rem;
+  color: white;
+  animation: animateColor 20s linear infinite;
+}

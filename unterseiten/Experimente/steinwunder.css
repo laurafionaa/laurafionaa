@@ -1,0 +1,261 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: assets;
+  font-family: 'Syne', sans-serif;
+}
+* 
+{
+  margin:0;
+  padding:0;
+}
+
+body {
+ background: #ffff;
+}
+
+main {
+width: 100%;
+}
+
+/*LOGO*/
+.logo {
+  align-items: center;
+  text-align: center;
+  left: 45%;
+  right: auto;
+  top: 15px;
+  bottom: auto;
+  background: #cc9af4;
+}
+/*Navigation*/
+.menuline{
+  position: relative;
+  right: 49px;
+  size: 20%;  
+  top: -70px;
+  float: right;
+  font-size: 50px;
+  cursor: pointer;
+  color:#ffffff;
+  margin-bottom: -80px;
+}
+.nav {
+  align-items: center;
+  text-align: center;
+  left: 45%;
+  right: auto;
+  top: 15px;
+  bottom: auto;
+  background: #cc9af4;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #cc9af4;
+  background-color: #cc9af491;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+  color: #a366d5;
+}
+.overlay .closebtn {
+  position: absolute;
+  top: 50px;
+  right: 45px;
+  font-size: 60px;
+}
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+/*Hover Menu*/
+.hover-title {
+  font-weight: 600;
+  display: inline;
+  pointer-events: auto;
+  cursor: pointer;
+}
+.hover-image {
+  visibility: hidden;
+}
+body:not(.mobile) .hover-title:hover + .hover-image {
+  visibility: visible;
+  pointer-events: none;
+}
+.hover-image {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  pointer-events: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+/* Change width and height to scale images */
+  width: 20%;
+  height: 20%;
+}
+.hover-image img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  margin-bottom: 0;
+}
+
+
+.gallery {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  overflow: relative;
+}
+
+.gallery img {
+  position: relative;
+  width:100%;
+  margin: 100px 0;
+}
+
+.alle {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow: relative;
+}
+
+.heading-text {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: 5vw;
+  color:#4a4a4a;
+}
+.heading-text span {
+  font-weight: 100;
+}
+
+.youtube-container-100 {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 0;
+  height: 0; 
+  overflow: hidden;
+  /*box-shadow: 0px 13px 14px 0px rgba(107, 70, 70, 0.81);*/
+  }
+  .youtube-container-100 iframe,
+  .youtube-container-100 embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+
+
+  /*Back to top*/
+/* From uiverse.io by @kirzin */
+button {
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 5%;
+  left: 89%;
+  border: none;
+  font-size: 14px;
+  font-family: inherit;
+  color: #fff;
+  cursor: pointer;
+  width: 5em;
+  height: 3em;
+  line-height: 1.3em;
+  text-align: center;
+  background: linear-gradient(90deg,#cc9af4,#cc9af4,#cc9af4,#cc9af4);
+  background-size: 100%;
+  border-radius: 20px;
+  z-index: 99;
+ }
+ button:hover {
+  animation: ani 8s linear infinite;
+  border: none;
+ }
+ @keyframes ani {
+  0% {
+   background-position: 0%;
+  }
+  100% {
+   background-position: 400%;
+  }
+ } 
+button:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg,#cc9af4,#cc9af4,#cc9af4,#cc9af4);
+  background-size: 400%;
+  border-radius: 35px;
+  transition: 1s;
+ }
+ button:hover::before {
+  filter: blur(20px);
+ }
+ button:active {
+  background: linear-gradient(32deg,#cc9af4,#cc9af4,#cc9af4,#cc9af4);
+ }
+   /* unvisited link */
+   a.links:link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+    /* visited link */
+  a.links:visited {
+    color: #ffffff;
+    text-decoration: none;
+  }
+    /* mouse over link */
+  a.links:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+    /* selected link */
+  a.links:active {
+    color: rgb(177, 103, 233);
+    text-decoration: none;
+  }
+
+  

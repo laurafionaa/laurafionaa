@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="fonts/Syne/static/fontstyle.css">
+    <link rel="stylesheet" href="/Users/laurafionaa/Desktop/FionaWebseite/unterseiten/portfolio/modenschau.css">
+    <title>Fiona's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<!-- Logo -->  
+    <div class="logo">   
+        <a href="file:///Users/laurafionaa/Desktop/FionaWebseite/main.html"> <img src="/Users/laurafionaa/Desktop/FionaWebseite/assets/Logo/Logo1.gif" alt="Logo" style="width:190;height:82px;"></a>
+    </div>
+<!-- Navigation -->
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <div class="hover-title"><a href="/Users/laurafionaa/Desktop/FionaWebseite/main.html">Home</a></div>
+          <div class="hover-image"><img src="/Users/laurafionaa/Desktop/FionaWebseite/assets/icons/Illus/Home2.png" alt="Home"></div>
+          <div class="hover-title"><a href="/Users/laurafionaa/Desktop/FionaWebseite/unterseiten/portfolio.html">Portfolio</a></div>
+          <div class="hover-image"><img src="/Users/laurafionaa/Desktop/FionaWebseite/assets/icons/Illus/Portfolio22.png" alt="Portfolio"></div>
+          <div class="hover-title"><a href="/Users/laurafionaa/Desktop/FionaWebseite/unterseiten/experiments.html">Experiments</a></div>
+          <div class="hover-image"><img src="/Users/laurafionaa/Desktop/FionaWebseite/assets/icons/Illus/Experimente.png" alt="Experiments"></div>
+          <div class="hover-title"><a href="/Users/laurafionaa/Desktop/FionaWebseite/unterseiten/about.html">About</a></div>
+          <div class="hover-image"><img src="/Users/laurafionaa/Desktop/FionaWebseite/assets/icons/Illus/About.png" alt="About"></div>
+          <div class="hover-title"><a href="/Users/laurafionaa/Desktop/FionaWebseite/unterseiten/getinTouch.html">Get in Touch</a></div>
+          <div class="hover-image"><img src="/Users/laurafionaa/Desktop/FionaWebseite/assets/icons/Illus/GetinTouch.png" alt="Get in Touch"></div>
+        </div>
+    </div>
+    <div class="menuline" onclick="openNav()">&#9776; </div>
+    
+    <!--Headline-->
+    <div class="headline">
+      <h2>Modenschau 2022</h2>
+    </div>
+
+    <!--Gallery Projekt 4-->
+    <div class="container">
+      <h2 class="heading-text">Modenschau <span>Dokumentation</span></h2>
+
+  <!--Video-->
+  <video width="400" controls autoplay muted loop poster="/Users/laurafionaa/Desktop/FionaWebseite/assets/modenschau/vorschaubild.jpg"> 
+    <source src="/Users/laurafionaa/Desktop/FionaWebseite/assets/modenschau/Modenschau2022-FHBielefeldv2.mp4" poster="/Users/laurafionaa/Desktop/FionaWebseite/assets/Machina/Machina11.jpg" type="video/mp4">
+    </video>
+
+      
+      <!-- Text -->
+        <h2 class="heading-text">Fashion Walk<span> </span></h2>
+        <a class="fliesstext">
+          <p>The Bielefeld University of Applied Sciences fashion show shows the collections of the graduates and designs created in the fashion courses. The models walk through the streets of Bielefeld, starting at the Kunstverein, along the Art Gallery, the streets of Bielefeld the Metro Station and some parks.
+            I organized the teams, planned the spots for the best shots and directed the team.
+          </p>  My part in this is the organization, I created and directed the team, which are some Fellow students I met in different Classes, who enjoy to film. I checked the Route with Isabel Pallas, and figured the Spots for the Film shots, I wanted to create a diverse Trailer for the Fashion Show, by showing the models walking and Posing in the City. For that I created a plan for everyone with the spots of most interest and interaction, just as the prettiest City backgrounds. 
+          </p>&nbsp; <!-- Leerzeichen --> 
+        </p>
+
+
+
+      <h2 class="heading-text">Credits <span></span></h2>
+      <a class="fliesstextt">
+      <p>Regie: Fiona Giljohann</p>
+      <p>Conception: Fiona Giljohann </p>
+      <p>Kamera: Fiona Giljohann, Louis Wiemann, Patrik Finger, Kenny Coman </p>
+      <p>Cut: Louis Wiemann</p>
+      <p>Music: Evgeny Bardyuzha</p>
+      <p>Organisation Fahsion Walk: Isabel Pallas, Philipp Rupp</p>
+    </div>
+
+<!-- Back to Overview -->
+<button>
+  <p><a class="links" href="/Users/laurafionaa/Desktop/FionaWebseite/unterseiten/portfolio.html">Overview</a> </p>
+</button>
+
+
+
+</body>
+
+    
+    
+<!-- Scripts  1;Navigation, 2;Moving Image-->
+<script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+
+    const toggleButton = document.getElementById ('toggle-button');
+    const naviList = document.getElementById ('navi-list');
+ 
+    toggleButton.addEventListener('click', () => {
+         naviList.classList.toggle('active');
+    })
+ </script>
+ </html>
+

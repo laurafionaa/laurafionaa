@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Syne-Bold';
+    src:  url('Syne-Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Syne-ExtraBold';
+    src:  url('Syne-ExtraBold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Syne-Medium';
+    src:  url('Syne-Medium.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Syne-Regular';
+    src:  url('Syne-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Syne-SemiBold';
+    src:  url('Syne-SemiBold.ttf') format('truetype');
+  }
