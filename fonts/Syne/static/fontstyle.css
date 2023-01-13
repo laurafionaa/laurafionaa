@@ -18,3 +18,7 @@
     font-family: 'Syne-SemiBold';
     src:  url('Syne-SemiBold.ttf') format('truetype');
   }
+  @font-face {
+    font-family: 'Syne-VariableFont_wght';
+    src:  url('Syne-VariableFont_wght.ttf') format('truetype');
+  }

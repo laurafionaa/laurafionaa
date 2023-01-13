@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   background-image: assets;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Syne-Medium', sans-serif;
 }
 /*Logo*/
 .logo {
@@ -24,6 +24,7 @@
   top: -70px;
   float: right;
   font-size: 50px;
+  font-weight: 70;
   cursor: pointer;
   color:#ffffff;
   margin-bottom: -80px;
@@ -60,6 +61,7 @@
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
+  font-weight: 70;
   color: #fff;
   display: block;
   transition: 0.3s;
@@ -83,7 +85,7 @@
 }
 /*Hover Menu*/
 .hover-title {
-  font-weight: 600;
+  font-weight: 200;
   display: inline;
   pointer-events: auto;
   cursor: pointer;
