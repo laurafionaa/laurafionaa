@@ -221,7 +221,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   font-weight: 500;
   color: white;
   position:absolute;
-  top: 45%;
+  top: 35%;
   left: 15%;
   text-align: left;
 }
