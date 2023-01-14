@@ -24,6 +24,7 @@
   top: -70px;
   float: right;
   font-size: 50px;
+  font-weight: 70;
   cursor: pointer;
   color:#ffffff;
   margin-bottom: -80px;
@@ -60,6 +61,7 @@
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
+  font-weight: 70;
   color: #fff;
   display: block;
   transition: 0.3s;
@@ -83,7 +85,7 @@
 }
 /*Hover Menu*/
 .hover-title {
-  font-weight: 600;
+  font-weight: 200;
   display: inline;
   pointer-events: auto;
   cursor: pointer;
@@ -98,7 +100,6 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 .hover-image {
   display: flex;
   position: fixed;
-  /* Change Position */
   top: 50%;
   left: 70%;
   transform: translate(-50%, -50%);
