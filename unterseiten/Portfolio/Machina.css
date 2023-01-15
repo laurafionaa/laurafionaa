@@ -24,7 +24,6 @@
   top: -70px;
   float: right;
   font-size: 50px;
-  font-weight: 70;
   cursor: pointer;
   color:#ffffff;
   margin-bottom: -80px;
@@ -61,7 +60,6 @@
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  font-weight: 70;
   color: #fff;
   display: block;
   transition: 0.3s;
@@ -124,12 +122,14 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 
 /*Video*/
 video {
-  width: 70%;
+  width: 100%;
   height: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3%;
+  margin-bottom: 3%;
+
 }
 .responsive-video {
   width: 70vw;
@@ -147,29 +147,15 @@ video {
 /*Gallery*/ 
   .container {
     padding: 40px 15%;
-    margin-top: 10%;
-  }
-  .container2 {
-    padding: 40px 0%;
-    margin-top: 10%;
+    margin-top: 5%;
   }
   .heading-text {
-    margin-top: 5rem;
+    margin-top: 3%;
     margin-bottom: 2rem;
     font-size: 2rem;
     color: #4a4a4a;
   }
   .heading-text span {
-    font-weight: 100;
-    color: #4a4a4a;
-  }
-  .heading-textt {
-    margin-top: 10rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    color: #4a4a4a;
-  }
-  .heading-textt span {
     font-weight: 100;
     color: #4a4a4a;
   }
@@ -184,7 +170,6 @@ video {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-bottom: 2rem;
   }
   .image-item img {
     width: 100%;
@@ -222,13 +207,27 @@ video {
     transform: scale(1);
   }
 
-/* Text */
-.text {
-  font-size: 1.8vw;
+/* Text */ 
+.intro {
+  font-size: 1.5vw;
   font-weight: 600;
-  color: white;
+  text-align: left;
+  width: 20em;
+  color: #4a4a4a;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  /*text-shadow: 2px 2px 5px rgb(72, 65, 65);*/
+}
+.Projects {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #4a4a4a;
   position:absolute;
-  top: 45%;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  padding-bottom: 20%;
   left: 15%;
   text-align: left;
   /*text-shadow: 2px 2px 5px rgb(72, 65, 65);*/
@@ -239,8 +238,10 @@ video {
   hyphens: auto; 
 	text-align: justify;
 }
+
+
 .h1{
-  font-size: 1.9vw;
+  font-size: 1.6vw;
   font-weight: bolder ;
   color: white;
   position:absolute;
@@ -248,26 +249,6 @@ video {
   left: 15%;
   text-align: left;
 }
-  /* unvisited link */
-  a.link:link {
-    color: #a366d5;
-    text-decoration: none;
-  }
-    /* visited link */
-  a.link:visited {
-    color: #4a4a4a;
-    text-decoration: none;
-  }
-    /* mouse over link */
-  a.link:hover {
-    color: #a366d5;
-    text-decoration: none;
-  }
-    /* selected link */
-  a.link:active {
-    color: rgb(177, 103, 233);
-    text-decoration: none;
-  }
 .headline {
   font-size: 4vw;
   font-family: sans-serif;
@@ -276,87 +257,22 @@ video {
   margin-top: 7%;
   text-shadow:0 0 30px rgba(0, 0, 0, 0.30);
 }
- .headline2 {
-  font-size: 4vw;
-  font-family: sans-serif;
-  color: #ffffff;
-  text-align: center;
-  margin-top: 20%;
-  text-shadow:0 0 30px rgba(0, 0, 0, 0.30);
-}/*Headline*/  /* IMPORTANT FIX TYPO & RESPONSIVE*/
-.headline-box{
-  font-size: 4.4vw;
-  font-family: sans-serif;
-  position: absolute;
-  margin-top: 10%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-span1{
-  animation: mover 6s linear infinite;
-  display: inline-block;
-  color: #fff;
-  font-weight: bolder;
-}
-@keyframes mover
-{
-  0%{
-      text-shadow: 0 0 30px rgba(0, 0, 0, 0);
-    }
-  50%{
-      text-shadow: 0 0 30px rgba(0, 0, 0, 0.30);
-      transform: translateY(30px);
-    }
-  100%
-    {
-      text-shadow: 0 0 30px rgba(0, 0, 0, 0);
-    }
-}
-span1:nth-child(1)
-{
-  animation-delay: 0.5s;
-}
-span1:nth-child(2)
-{
-  animation-delay: 1s;
-}
-span1:nth-child(3)
-{
-  animation-delay: 1.5s;
-}
-span1:nth-child(4)
-{
-  animation-delay: 2s;
-}
-span1:nth-child(5)
-{
-  animation-delay: 2.5s;
-}
-span1:nth-child(6)
-{
-  animation-delay: 3s;
-}
-span1:nth-child(7)
-{
-  animation-delay: 4s;
-}
-span1:nth-child(8)
-{
-  animation-delay: 4.5s;
-}
-span1:nth-child(9)
-{
-  animation-delay: 5s;
-}
-span1:nth-child(10)
-{
-  animation-delay: 5.5s;
-}
-span1:nth-child(11)
-{
-  animation-delay: 6s;
-}
-
+  /* unvisited link */
+  a.linkss:link {
+    color: #4a4a4a;
+  }
+    /* visited link */
+  a.linkss:visited {
+    color: #f4c99a;
+  }
+    /* mouse over link */
+  a.linkss:hover {
+    color: #a366d5;
+  }
+    /* selected link */
+  a.linkss:active {
+    color: rgb(177, 103, 233);
+  }
 
 
   /*Button Download CV*/
@@ -370,13 +286,13 @@ button {
   font-size: 14px;
   font-family: inherit;
   color: #fff;
-  width: 9em;
+  width: 5em;
   height: 3em;
-  line-height: 2em;
+  line-height: 1.3em;
   text-align: center;
-  background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
-  background-size: 300%;
-  border-radius: 30px;
+  background: linear-gradient(90deg,#a679da,#b33c7e,#d5a351,#a679da);
+  background-size: 100%;
+  border-radius: 20px;
   z-index: 1;
  }
  button:hover {
@@ -430,18 +346,6 @@ button:before {
     color: rgb(177, 103, 233);
     text-decoration: none;
   }
-
-
-  
-/*Down*/
-.iconDown{
-  position: absolute;
-  margin-top: 7em;
-  left: 15%;
-  width: 9em;
-  height: 3em;
-  line-height: 2em;
-}
-
 /*Responsive*/
 /*Clean*/
+
