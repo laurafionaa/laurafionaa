@@ -301,7 +301,7 @@ img-moving{
 }
 /*Hover Dots*/
 .hover-title {
-  font-weight: 600;
+  font-weight: 200;
   display: inline;
   pointer-events: auto;
   cursor: pointer;
