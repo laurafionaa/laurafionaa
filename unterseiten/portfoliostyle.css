@@ -360,8 +360,8 @@ span1:nth-child(11)
 button {
   text-decoration: none;
   position: sticky;
-  bottom: 5%;
-  left: 89%;
+  bottom: 15%;
+  right: 15%;
   border: none;
   font-size: 14px;
   font-family: inherit;
@@ -395,7 +395,7 @@ button:before {
   right: -5px;
   bottom: -5px;
   z-index: -1;
-  background: linear-gradient(90deg,#a679da,#b33c7e,#d5a351,#a679da);
+  background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
   background-size: 400%;
   border-radius: 35px;
   transition: 1s;
@@ -404,27 +404,31 @@ button:before {
   filter: blur(20px);
  }
  button:active {
-  background: linear-gradient(32deg,#a679da,#b33c7e,#d5a351,#a679da);
+  background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
  }
    /* unvisited link */
    a.links:link {
     color: #ffffff;
     text-decoration: none;
+
   }
     /* visited link */
   a.links:visited {
     color: #ffffff;
     text-decoration: none;
+
   }
     /* mouse over link */
   a.links:hover {
     color: #ffffff;
     text-decoration: none;
+
   }
     /* selected link */
   a.links:active {
     color: rgb(177, 103, 233);
     text-decoration: none;
+
   }
 
 
