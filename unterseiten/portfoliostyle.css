@@ -233,7 +233,7 @@ video {
   /*text-shadow: 2px 2px 5px rgb(72, 65, 65);*/
 }
 .fliesstext{
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   font-weight: 100;
   hyphens: auto; 
 	text-align: justify;
