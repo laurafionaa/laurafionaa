@@ -211,7 +211,6 @@ span1:nth-child(11)
 .fliesstext{
   font-size: 1.5rem;
   font-weight: 100;
-  hyphens: auto; 
 	text-align: justify;
 }
 .h1{
