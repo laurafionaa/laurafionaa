@@ -238,6 +238,24 @@ video {
   hyphens: auto; 
 	text-align: justify;
 }
+@media only screen and (min-width: 500px) {
+  .text {
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: white;
+    position:absolute;
+    top: 45%;
+    left: 15%;
+    text-align: left;
+    /*text-shadow: 2px 2px 5px rgb(72, 65, 65);*/
+  }
+  .fliesstext{
+    font-size: 1.3vw;
+    font-weight: 100;
+    hyphens: auto; 
+    text-align: justify;
+  }
+}
 .h1{
   font-size: 1.9vw;
   font-weight: bolder ;
