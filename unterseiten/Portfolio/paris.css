@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   background-image: assets;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Syne-Medium';
 }
 /*Logo*/
 .logo {
@@ -98,6 +98,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 .hover-image {
   display: flex;
   position: fixed;
+  /* Change Position */
   top: 50%;
   left: 70%;
   transform: translate(-50%, -50%);

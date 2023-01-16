@@ -122,6 +122,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 .hover-image {
   display: flex;
   position: fixed;
+  /* Change Position */
   top: 50%;
   left: 70%;
   transform: translate(-50%, -50%);
