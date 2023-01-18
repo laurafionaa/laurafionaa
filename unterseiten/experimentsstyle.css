@@ -344,3 +344,13 @@ video {
   .image-item:hover .over {
     transform: scale(1);
   }
+.h2{
+  font-size: 1.2vw;
+  font-weight: bolder ;
+  color: white;
+  position:absolute;
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 100;
+	text-align: justify;
+}
