@@ -408,17 +408,17 @@ button:before {
  }
    /* unvisited link */
    a.links:link {
-    color: #ffffff;
+    color: #4a4a4a;
     text-decoration: none;
   }
     /* visited link */
   a.links:visited {
-    color: #ffffff;
+    color: #4a4a4a;
     text-decoration: none;
   }
     /* mouse over link */
   a.links:hover {
-    color: #ffffff;
+    color: #4a4a4a;
     text-decoration: none;
   }
     /* selected link */
