@@ -284,26 +284,25 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     font-weight: 50;
     hyphens: auto; 
     text-align: center;
-    color: #cc9af4;
-
+    color: #cc9af49c;
+  }
     /* unvisited link */
-    a.links:link {
-      color: #cc9af4;
+    a.linkss:link {
+      color: #cc9af49c;
       font-size: 0.5rem;
     }
       /* visited link */
-    a.links:visited {
+    a.linkss:visited {
       color: #ffffff;
       font-size: 0.5rem;
     }
       /* mouse over link */
-    a.links:hover {
+    a.linkss:hover {
       color: #cc9af4;
       font-size: 0.5rem;
     }
       /* selected link */
-    a.links:active {
-      color: #ffffff;
+    a.linkss:active {
+      color: #cc9af49c;
       font-size: 0.5rem;
     }
-  }

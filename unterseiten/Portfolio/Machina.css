@@ -350,3 +350,30 @@ button:before {
 /*Responsive*/
 /*Clean*/
 
+.datenschutz{
+  font-size: 0.5rem;
+  font-weight: 50;
+  hyphens: auto; 
+  text-align: center;
+  color: #cc9af49c;
+}
+  /* unvisited link */
+  a.linkss:link {
+    color: #cc9af49c;
+    font-size: 0.5rem;
+  }
+    /* visited link */
+  a.linkss:visited {
+    color: #ffffff;
+    font-size: 0.5rem;
+  }
+    /* mouse over link */
+  a.linkss:hover {
+    color: #cc9af4;
+    font-size: 0.5rem;
+  }
+    /* selected link */
+  a.linkss:active {
+    color: #cc9af49c;
+    font-size: 0.5rem;
+  }
