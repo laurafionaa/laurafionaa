@@ -407,25 +407,46 @@ button:before {
   background: linear-gradient(32deg,#a679da,#b33c7e,#d5a351,#a679da);
  }
    /* unvisited link */
-   a.links:link {
-    color: #4a4a4a;
+   a.lincs:link {
+    color: #ffffff;
     text-decoration: none;
   }
     /* visited link */
-  a.links:visited {
-    color: #4a4a4a;
+  a.lincs:visited {
+    color: #ffffff;
     text-decoration: none;
   }
     /* mouse over link */
-  a.links:hover {
-    color: #4a4a4a;
+  a.lincs:hover {
+    color: #ffffff;
     text-decoration: none;
   }
     /* selected link */
-  a.links:active {
+  a.lincs:active {
     color: rgb(177, 103, 233);
     text-decoration: none;
   }
+
+     /* unvisited link */
+     a.links:link {
+      color: #4a4a4a;
+      text-decoration: none;
+    }
+      /* visited link */
+    a.links:visited {
+      color: #4a4a4a;
+      text-decoration: none;
+    }
+      /* mouse over link */
+    a.links:hover {
+      color: #4a4a4a;
+      text-decoration: none;
+    }
+      /* selected link */
+    a.links:active {
+      color: rgb(177, 103, 233);
+      text-decoration: none;
+    }
 
   .datenschutz{
     font-size: 0.5rem;
