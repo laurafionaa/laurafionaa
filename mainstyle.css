@@ -285,7 +285,8 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     hyphens: auto; 
     text-align: center;
     color: #85D1E05c;
-  
+    background: none;
+
     /* unvisited link */
     a.links:link {
       color: #85D1E05c;
