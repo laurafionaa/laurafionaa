@@ -280,16 +280,16 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   }
 
   .datenschutz{
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     font-weight: 100;
     hyphens: auto; 
     text-align: center;
-    color: #85D1E05c;
+    color: #cc9af4;
     background: none;
 
     /* unvisited link */
     a.links:link {
-      color: #85D1E05c;
+      color: #cc9af4;
     }
       /* visited link */
     a.links:visited {
@@ -297,7 +297,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     }
       /* mouse over link */
     a.links:hover {
-      color: #85D1E05c;
+      color: #cc9af4;
     }
       /* selected link */
     a.links:active {
