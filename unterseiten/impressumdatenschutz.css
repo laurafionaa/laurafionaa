@@ -1,7 +1,297 @@
 
 *
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: assets;
+  font-family: 'Syne-Medium';
+  text-decoration: none;
+}
 .fliesstext{
     font-size: 1.5rem;
     font-weight: 100;
       text-align: justify;
   }
+
+/*LOGO*/
+.logo {
+    align-items: center;
+    text-align: center;
+    left: 45%;
+    right: auto;
+    top: 15px;
+    bottom: auto;
+    background: #cc9af4;
+  }
+  /*Navigation*/
+  .menuline{
+    position: relative;
+    right: 49px;
+    size: 20%;  
+    top: -70px;
+    float: right;
+    font-size: 50px;
+    cursor: pointer;
+    color:#ffffff;
+    margin-bottom: -80px;
+  }
+  .nav {
+    align-items: center;
+    text-align: center;
+    left: 45%;
+    right: auto;
+    top: 15px;
+    bottom: auto;
+    background: #cc9af4;
+  }
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #cc9af4;
+    background-color: #cc9af4b2;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+  .overlay a:hover, .overlay a:focus {
+    color: #a366d5;
+  }
+  .overlay .closebtn {
+    position: absolute;
+    top: 50px;
+    right: 45px;
+    font-size: 60px;
+  }
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  /*Hover Menu*/
+  .hover-title {
+    font-weight: 200;
+    display: inline;
+    pointer-events: auto;
+    cursor: pointer;
+  }
+  .hover-image {
+    visibility: hidden;
+  }
+  body:not(.mobile) .hover-title:hover + .hover-image {
+    visibility: visible;
+    pointer-events: none;
+  }
+  .hover-image {
+    display: flex;
+    position: fixed;
+    /* Change Position */
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    pointer-events: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  /* Change width and height to scale images */
+    width: 20%;
+    height: 20%;
+  }
+  .hover-image img {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: 0;
+  }
+  
+  /*Headline*/  /* IMPORTANT FIX TYPO & RESPONSIVE*/
+  .headline-box{
+    font-size: 4.4vw;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  span1{
+    animation: mover 6s linear infinite;
+    display: inline-block;
+    color: #fff;
+    font-weight: bolder;
+  }
+  @keyframes mover
+  {
+    0%{
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+      }
+    50%{
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+        transform: translateY(30px);
+      }
+    100%
+      {
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+      }
+  }
+  span1:nth-child(1)
+  {
+    animation-delay: 0.5s;
+  }
+  span1:nth-child(2)
+  {
+    animation-delay: 1s;
+  }
+  span1:nth-child(3)
+  {
+    animation-delay: 1.5s;
+  }
+  span1:nth-child(4)
+  {
+    animation-delay: 2s;
+  }
+  span1:nth-child(5)
+  {
+    animation-delay: 2.5s;
+  }
+  span1:nth-child(6)
+  {
+    animation-delay: 3s;
+  }
+  span1:nth-child(7)
+  {
+    animation-delay: 4s;
+  }
+  span1:nth-child(8)
+  {
+    animation-delay: 4.5s;
+  }
+  span1:nth-child(9)
+  {
+    animation-delay: 5s;
+  }
+  span1:nth-child(10)
+  {
+    animation-delay: 5.5s;
+  }
+  span1:nth-child(11)
+  {
+    animation-delay: 6s;
+  }
+  
+  /* IMPORTANT FIX TYPO & RESPONSIVE */
+  
+    /* unvisited link */
+    a.links:link {
+      color: #4a4a4a;
+      text-decoration: none;
+    }
+      /* visited link */
+    a.links:visited {
+      color: #4a4a4a;
+      text-decoration: none;
+    }
+      /* mouse over link */
+    a.links:hover {
+      color: #a366d5;
+      text-decoration: none;
+    }
+      /* selected link */
+    a.links:active {
+      color: rgb(177, 103, 233);
+      text-decoration: none;
+    }
+  
+    /*Button Übersicht */
+  /* From uiverse.io by @kirzin */
+  button {
+    text-decoration: none;
+    position: sticky;
+    bottom: 5%;
+    left: 89%;
+    border: none;
+    font-size: 14px;
+    font-family: inherit;
+    color: #fff;
+    width: 5em;
+    height: 3em;
+    line-height: 1.3em;
+    text-align: center;
+    background: linear-gradient(90deg,#a679da,#b33c7e,#d5a351,#a679da);
+    background-size: 100%;
+    border-radius: 20px;
+    z-index: 1;
+   }
+   button:hover {
+    animation: ani 8s linear infinite;
+    border: none;
+   }
+   @keyframes ani {
+    0% {
+     background-position: 0%;
+    }
+    100% {
+     background-position: 400%;
+    }
+   } 
+  button:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg,#a679da,#b33c7e,#d5a351,#a679da);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+   }
+   button:hover::before {
+    filter: blur(20px);
+   }
+   button:active {
+    background: linear-gradient(32deg,#a679da,#b33c7e,#d5a351,#a679da);
+   }
+     /* unvisited link */
+     a.links:link {
+      color: #4a4a4a;
+      text-decoration: none;
+    }
+      /* visited link */
+    a.links:visited {
+      color: #4a4a4a;
+      text-decoration: none;
+    }
+      /* mouse over link */
+    a.links:hover {
+      color: #4a4a4a;
+      text-decoration: none;
+    }
+      /* selected link */
+    a.links:active {
+      color: rgb(177, 103, 233);
+      text-decoration: none;
+    }
