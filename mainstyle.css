@@ -279,4 +279,10 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     color: rgb(177, 103, 233);
   }
 
-
+  .datenschutz{
+    font-size: 0.8rem;
+    font-weight: 100;
+    hyphens: auto; 
+    text-align: center;
+    color: #4a4a4a;
+  }
