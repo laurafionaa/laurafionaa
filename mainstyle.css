@@ -285,20 +285,21 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     hyphens: auto; 
     text-align: center;
     color: #85D1E05c;
-  }
+  
     /* unvisited link */
-    b.links:link {
+    a.links:link {
       color: #85D1E05c;
     }
       /* visited link */
-    b.links:visited {
+    a.links:visited {
       color: #ffffff;
     }
       /* mouse over link */
-    b.links:hover {
+    a.links:hover {
       color: #85D1E05c;
     }
       /* selected link */
-    b.links:active {
+    a.links:active {
       color: #ffffff;;
     }
+  }
