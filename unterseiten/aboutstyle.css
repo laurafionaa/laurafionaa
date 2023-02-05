@@ -172,8 +172,8 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 {
   position: relative;
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
 }
 .container span:hover::before
 {
@@ -223,7 +223,7 @@ img-moving{
 }
 /* Text */ 
 .intro {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: white;
     position:absolute;
@@ -299,7 +299,77 @@ img-moving{
   margin-right: 10%;
   margin-bottom: 10%;
 }
-
+/*Hover Dots*/
+.hover-title {
+  font-weight: 200;
+  display: inline;
+  pointer-events: auto;
+  cursor: pointer;
+}
+.hover-imagee {
+  visibility: hidden;
+}
+body:not(.mobile) .hover-title:hover + .hover-image {
+  visibility: visible;
+  pointer-events: none;
+}
+.hover-imagee {
+  display: flex;
+  position: fixed;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  pointer-events: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+/* Change width and height to scale images */
+  width: 20%;
+  height: 20%;
+}
+.hover-imagee img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  margin-bottom: 0;
+}
+.hiddenimg {
+  display: none;
+  position: relative;
+  bottom: 20%;
+  left: 90%;
+}
+.hiddentxt {
+  font-weight: bold;
+  color: white;
+  z-index: 99;
+}
+.hiddentxt a {
+  color: white;
+  text-decoration: none;
+  z-index: 99;
+}
+.hiddenclick {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.hiddenclick a {
+  color: white;
+  text-decoration: none;
+}
+.hiddenclick a:visited {
+  color: white;
+  text-decoration: none;
+}
+.hiddentxt:hover ~ .hiddenimg {
+  display: block;
+  position: absolute;
+  z-index: 2
+}
 
 /*Skills New New*/
 .introo {
