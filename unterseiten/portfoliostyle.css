@@ -230,13 +230,13 @@ video {
   /*text-shadow: 2px 2px 5px rgb(72, 65, 65);*/
 }
 .fliesstext{
-  font-size: 1.5vw;
+  font-size: 1.7rem;
   font-weight: 100;
   hyphens: auto; 
 	text-align: justify;
 }
 .h1{
-  font-size: 1.9vw;
+  font-size: 1.9rem;
   font-weight: bolder ;
   color: white;
   position:absolute;
@@ -265,7 +265,7 @@ video {
     text-decoration: none;
   }
 .headline {
-  font-size: 4vw;
+  font-size: 2.7rem;
   font-family: sans-serif;
   color: #ffffff;
   text-align: center;
@@ -273,7 +273,7 @@ video {
   text-shadow:0 0 30px rgba(0, 0, 0, 0.30);
 }
  .headline2 {
-  font-size: 4vw;
+  font-size: 2.7rem;
   font-family: sans-serif;
   color: #ffffff;
   text-align: center;
@@ -281,7 +281,7 @@ video {
   text-shadow:0 0 30px rgba(0, 0, 0, 0.30);
 }/*Headline*/  /* IMPORTANT FIX TYPO & RESPONSIVE*/
 .headline-box{
-  font-size: 4.4vw;
+  font-size: 3rem;
   font-family: sans-serif;
   position: absolute;
   margin-top: 10%;
