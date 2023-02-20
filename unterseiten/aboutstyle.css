@@ -190,6 +190,14 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 img-moving{
   border-radius: 50%;
 }
+@media screen and (max-height: 450px) {
+  .movingimage{
+    position: fixed;
+    top: 200px;
+    left: 200px;
+    size: 20%;
+  }
+}
 /*About Moving Bandarole*/
 .scrolling {
 	position: absolute;
