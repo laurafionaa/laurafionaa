@@ -476,13 +476,4 @@ button:before {
       }
 
 
-      details[open] summary {
-        font-size: 1rem;
-     }
-     
-     summary {
-       cursor:pointer;
-       font-size: 1.5rem;
-     }
-     
   
