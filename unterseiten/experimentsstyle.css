@@ -474,4 +474,14 @@ button:before {
         color: #cc9af49c;
         font-size: 0.5rem;
       }
+
+
+      details[open] summary {
+        font-style: italic;
+     }
+     
+     summary {
+       cursor:pointer;
+     }
+     
   
