@@ -248,7 +248,6 @@ body:not(.mobile) .hover-title:hover + .hover-image {
    }
    a[href^="tel:"] {
     color: white; /* Ändere die Farbe hier */
-    text-decoration: none; /* Entferne die standardmäßige Unterstreichung */
   }
 
 /*Gif Headline*/

@@ -240,28 +240,6 @@ img-moving{
     text-align: left;
     /*text-shadow: 2px 2px 5px rgb(72, 65, 65);*/
 }
-@media (max-width: 767px) {
-  .intro {
-    font-size: 1rem;
-    font-weight: 500;
-    color: white;
-    position:absolute;
-    top: 35%;
-    right: 5%;
-    text-align: left;
-  }
-}
-@media (max-width: 480px) {
-  .intro {
-    font-size: 0.5rem;
-    font-weight: 500;
-    color: white;
-    position:absolute;
-    top: 35%;
-    left: 15%;
-    text-align: left;
-  }
-}
 .heading-text {
   color: white;
   margin-top: 3rem;
