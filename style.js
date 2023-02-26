@@ -125,3 +125,5 @@ function vidPlay() {
   function toggleImage() {
     $(".hiddenclickimg").toggle();
   };
+
+  
