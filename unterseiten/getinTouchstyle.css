@@ -247,7 +247,8 @@ body:not(.mobile) .hover-title:hover + .hover-image {
      color: rgb(177, 103, 233);
    }
    a[href^="tel:"] {
-    color: white; /* Ändere die Farbe hier */
+    color: white;
+    text-decoration: underline;
   }
 
 /*Gif Headline*/
