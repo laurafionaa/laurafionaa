@@ -193,8 +193,8 @@ img-moving{
 @media screen and (max-height: 450px) {
   .movingimage{
     position: fixed;
-    top: 400px;
-    left: 400px;
+    top: 50px;
+    right: 200px;
     size: 10%;
   }
 }
@@ -375,7 +375,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   .hiddenimg {
     display: none;
     position: relative;
-    bottom: 20%;
+    bottom: 10%;
     left: 40%;
   }
 }
@@ -383,7 +383,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   .hiddenimg {
     display: none;
     position: relative;
-    bottom: 20%;
+    bottom: 10%;
     left: 40%;
   }
 }
