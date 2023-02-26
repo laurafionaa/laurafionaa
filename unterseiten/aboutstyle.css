@@ -193,9 +193,9 @@ img-moving{
 @media screen and (max-height: 450px) {
   .movingimage{
     position: fixed;
-    top: 200px;
-    left: 200px;
-    size: 20%;
+    top: 400px;
+    left: 400px;
+    size: 10%;
   }
 }
 /*About Moving Bandarole*/
@@ -241,7 +241,7 @@ img-moving{
     /*text-shadow: 2px 2px 5px rgb(72, 65, 65);*/
 }
 @media (max-width: 767px) {
-  intro {
+  .intro {
     font-size: 1.25rem;
     font-weight: 500;
     color: white;
@@ -252,7 +252,7 @@ img-moving{
   }
 }
 @media (max-width: 480px) {
-  intro {
+  .intro {
     font-size: 1rem;
     font-weight: 500;
     color: white;
@@ -372,19 +372,19 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   left: 90%;
 }
 @media (max-width: 767px) {
-  hiddenimg {
+  .hiddenimg {
     display: none;
     position: relative;
     bottom: 20%;
-    left: 50%;
+    left: 40%;
   }
 }
 @media (max-width: 480px) {
-  hiddenimg {
+  .hiddenimg {
     display: none;
     position: relative;
     bottom: 20%;
-    left: 50%;
+    left: 40%;
   }
 }
 .hiddentxt {
