@@ -193,8 +193,8 @@ img-moving{
 @media screen and (max-height: 450px) {
   .movingimage{
     position: fixed;
-    top: 50px;
-    right: 200px;
+    top: 20px;
+    right: 100px;
     size: 10%;
   }
 }
@@ -236,7 +236,7 @@ img-moving{
     color: white;
     position:absolute;
     top: 35%;
-    left: 15%;
+    right: 5%;
     text-align: left;
     /*text-shadow: 2px 2px 5px rgb(72, 65, 65);*/
 }
@@ -247,7 +247,7 @@ img-moving{
     color: white;
     position:absolute;
     top: 35%;
-    left: 15%;
+    right: 5%;
     text-align: left;
   }
 }
