@@ -236,7 +236,7 @@ img-moving{
     color: white;
     position:absolute;
     top: 35%;
-    right: 5%;
+    left: 15%;
     text-align: left;
     /*text-shadow: 2px 2px 5px rgb(72, 65, 65);*/
 }
