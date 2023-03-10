@@ -59,7 +59,7 @@ width: 100%;
   top: 0;
   left: 0;
   background-color: #cc9af4;
-  background-color: #cc9af491;
+  background-color: #cc9af4b2;
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -95,10 +95,9 @@ width: 100%;
   right: 35px;
   }
 }
-
 /*Hover Menu*/
 .hover-title {
-  font-weight: 600;
+  font-weight: 200;
   display: inline;
   pointer-events: auto;
   cursor: pointer;
@@ -113,6 +112,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 .hover-image {
   display: flex;
   position: fixed;
+  /* Change Position */
   top: 50%;
   left: 70%;
   transform: translate(-50%, -50%);
