@@ -342,17 +342,17 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 .box {
   flex: 1;
   overflow: hidden;
-  transition: .5s;
-  margin: 0 2%;
+  transition: 1.5s;
+  margin: 0 1%;
   box-shadow: 0 20px 30px rgba(0,0,0,.1);
   line-height: 0;
 }
 
 .box > img {
-  width: 200%;
-  height: calc(100% - 10vh);
+  width: 100%;
+  height: calc(100% - 5vh);
   object-fit: cover; 
-  transition: .5s;
+  transition: 1.5ss;
 }
 
 .box > span {
@@ -366,6 +366,6 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 .box:hover { flex: 1 1 50%; }
 .box:hover > img {
   width: 100%;
-  height: 100%;
+  height: 95%;
 }
  
