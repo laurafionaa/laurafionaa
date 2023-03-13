@@ -176,13 +176,13 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   background-color: #ffffff;
-  background-image: linear-gradient(360deg, #ffffff 0%, #dcc5ef 19%, #cca6eb 39%, #cc9fef 60%, #caa0ed 80%, #cc9af4 100%);
+  background-image: linear-gradient(360deg, #ffffff 50%, #dcc5ef 65%, #cca6eb 79%, #cc9fef 89%, #caa0ed 98%, #cc9af4 100%);
   overflow: hidden;
 }
 /*Important*/
@@ -330,13 +330,17 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   color: white;
 } 
 
+
+
+
 .pictures {
-  top: 85%;
+  top: 130%;
   display: flex;
   width: 100%;
   padding: 4% 2%;
+  position: absolute;
   box-sizing: border-box;
-  height: 100vh;
+  height: 70vh;
 }
 
 .box {
@@ -369,3 +373,65 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   height: 95%;
 }
  
+
+
+/*Important background*/
+.kontainer
+{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  background-image: linear-gradient(360deg, #cc9af4 0%, #caa0ed 19%, #cc9fef 39%, #cca6eb 60%, #dcc5ef 80%, #ffffff 100%, );
+  overflow: hidden;
+}
+/*Important*/
+.kontainer span
+{
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+.kontainer span::before
+{
+  content: '';
+  position: absolute;
+  top :0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: #bc6aff; /*f4c99a*/
+  box-shadow: 0 0 5px #bc6aff,
+              0 0 10px #bc6aff,
+              0 0 15px #bc6aff,
+              0 0 20px #bc6aff,
+              0 0 25px #bc6aff,
+              0 0 30px #bc6aff,
+              0 0 35px #bc6aff,
+              0 0 40px #bc6aff,
+              0 0 45px #bc6aff,
+              0 0 50px #bc6aff,
+              0 0 55px #bc6aff,
+              0 0 60px #bc6aff,
+              0 0 65px #bc6aff,
+              0 0 70px #bc6aff,
+              0 0 75px #bc6aff,
+              0 0 80px #bc6aff,
+              0 0 85px #bc6aff,
+              0 0 90px #bc6aff,
+              0 0 95px #bc6aff,
+              0 0 100px #bc6aff;
+  border-radius: 500%;
+  transition: 0,9s;
+  transform: scale(0);
+}
+.kontainer span:hover::before
+{
+  transition: 0s;
+  transform: scale(3);
+}
