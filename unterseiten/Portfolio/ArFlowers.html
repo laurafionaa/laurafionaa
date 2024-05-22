@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../fonts/Syne/static/fontstyle.css">
+    <link rel="stylesheet" href="ArFlowers.css">
+    <title>Fiona's Portfolio</title>
+</head>
+
+<body>
+<!-- Logo -->  
+    <div class="logo">   
+        <a href="../../index.html"> <img src="../../assets/Logo/Logo1.gif" alt="Logo" style="width:190;height:82px;"></a>
+    </div>
+<!-- Navigation -->
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <div class="hover-title"><a href="../../index.html">Home</a></div>
+    <div class="hover-image"><img src="../../assets/icons/Illus/Home2.png" alt="Home"></div>
+    <div class="hover-title"><a href="../portfolio.html">Portfolio</a></div>
+    <div class="hover-image"><img src="../../assets/icons/Illus/Portfolio22.png" alt="Portfolio"></div>
+    <div class="hover-title"><a href="../experiments.html">Experiments</a></div>
+    <div class="hover-image"><img src="../../assets/icons/Illus/Experimente.png" alt="Experiments"></div>
+    <div class="hover-title"><a href="../about.html">About</a></div>
+    <div class="hover-image"><img src="../../assets/icons/Illus/About.png" alt="About"></div>
+    <div class="hover-title"><a href="../getinTouch.html">Get in Touch</a></div>
+    <div class="hover-image"><img src="../../assets/icons/Illus/GetinTouch.png" alt="Get in Touch"></div>
+  </div>
+</div>
+<div class="menuline" onclick="openNav()">&#9776; </div>
+
+    <!--Headline-->
+    <div class="headline">
+      <h2>AR Flowers</h2>
+    </div>
+
+    <!--Gallery Projekt 4-->
+    <div class="container">
+      <h2 class="heading-text">AR Flowers <span>Installaion</span></h2>
+
+  <!--Video
+  <video width="400" controls autoplay muted loop > 
+    <source src="../../assets/flowerd/AR_Record-Giljohann.mp4"  type="video/mp4">
+    </video>
+    -->
+          <!--Video-->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/1mrnJyEpYUI?si=AtqEbt4-7kdeb97h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+      <!-- Text -->
+        <h2 class="heading-text">AR Installaion<span> </span></h2>
+        <a class="fliesstext">
+          <p>The concept refers to toxic masculinity and the different experiences and associations that people have and share with the term, the soundtracks run in the background and viewers are invited to take a closer look at the flowers, which are to be explored in an abstract and altered form. With the aim of turning clichés and stereotypes on their head and assigning flowers to the opposite sex.</p>&nbsp; <!-- Leerzeichen --> 
+        </p>&nbsp; <!-- Leerzeichen --> 
+        </p>
+
+        <div class="image-gallery">
+
+          <div class="column">
+            <div class="image-item">
+              <img src="../../assets/flowerd/Blume1.jpg" alt="" />
+            </div>
+          </div>
+    
+    
+          <div class="column">
+            <div class="image-item">
+              <img src="../../assets/flowerd/Blume2.jpg" alt="" />
+              </div>
+          </div>
+    
+          <div class="column">
+            <div class="image-item">
+              <img src="../../assets/flowerd/Blume3.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+
+<!-- Back to Overview -->
+<button>
+  <p><a class="links" href="/unterseiten/portfolio.html">Overview</a> </p>
+</button>
+
+
+<footer>
+  <div class="datenschutz">
+      <p id="datenschutz"><a class="linkss" href="/unterseiten/impressumdatenschutz.html">Impressum & Dartenschutz / Legal Notice & Privacy Policy</a>  </p> 
+  </div>
+</footer>
+
+
+
+</body>
+ 
+    
+<!-- Scripts  1;Navigation, 2;Moving Image-->
+<script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+
+    const toggleButton = document.getElementById ('toggle-button');
+    const naviList = document.getElementById ('navi-list');
+ 
+    toggleButton.addEventListener('click', () => {
+         naviList.classList.toggle('active');
+    })
+ </script>
+ </html>
+

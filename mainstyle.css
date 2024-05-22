@@ -435,3 +435,80 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   transition: 0s;
   transform: scale(3);
 }
+
+
+/*Button Download CV*/
+/* From uiverse.io by @kirzin */
+button {
+  text-decoration: none;
+  position: sticky;
+  bottom: 10%;
+  left: 15%;
+  border: none;
+  font-size: 14px;
+  font-family: inherit;
+  color: #fff;
+  width: 12em;
+  height: 4em;
+  line-height: 2em;
+  text-align: center;
+  background: linear-gradient(90deg,#cbc3b0,#9058f9,#959279,#504937);
+  background-size: 300%;
+  border-radius: 30px;
+  z-index: 1;
+ }
+ button:hover {
+  animation: ani 8s linear infinite;
+  border: none;
+ }
+ @keyframes ani {
+  0% {
+   background-position: 0%;
+  }
+  100% {
+   background-position: 400%;
+  }
+ } 
+button:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg,#cbc3b0,#9058f9,#959279,#504937);
+  background-size: 400%;
+  border-radius: 35px;
+  transition: 1s;
+ }
+ button:hover::before {
+  filter: blur(20px);
+ }
+ button:active {
+  background: linear-gradient(32deg,#cbc3b0,#9058f9,#959279,#504937);
+ }
+   /* unvisited link */
+   a.links:link {
+    color: #ffffff;
+    text-decoration: none;
+
+  }
+    /* visited link */
+  a.links:visited {
+    color: #ffffff;
+    text-decoration: none;
+
+  }
+    /* mouse over link */
+  a.links:hover {
+    color: #ffffff;
+    text-decoration: none;
+
+  }
+    /* selected link */
+  a.links:active {
+    color: rgb(141, 123, 155);
+    text-decoration: none;
+
+  }
